@@ -13,3 +13,9 @@ It was a pain in the ass to get snort working under windows that's due to the la
 5. run `snort -W` to get which interface is your target to monitor
 6. execute snort with `snort -i <interface #> -c c:\snort\etc\snort.conf`
 7. logs will be in `c:\snort\log\`
+
+# tags and erros that are solved by this file are listed here
+* `ERROR: /etc/snort/snort.conf(326) => Invalid keyword '}' for server`
+* `ERROR: Misconfigured dynamic preprocessor(s)`
+* `Fatal Error, Quitting..`
+* `ERROR: /etc/snort/rules/app-detect.rules(33) Unknown ClassType: web-application-attack`
